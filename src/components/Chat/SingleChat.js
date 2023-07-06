@@ -20,7 +20,7 @@ import animationData from "../../animations/typing.json";
 
 const BE_LINK = process.env.BE_LINK;
 
-const ENDPOINT = "https://workspace-jssstu-backend.onrender.com"; //hosting sight  (important)
+const ENDPOINT = "https://workspace-jssstu-backend.onrender.com/"; //hosting sight  (important)
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
